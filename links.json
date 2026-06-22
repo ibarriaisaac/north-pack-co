@@ -1,0 +1,4 @@
+{
+  "_instructions": "Add real product-to-affiliate-link mappings here. Key = product name exactly as you expect the AI to reference it (lowercase). Value = your real Amazon Associates or Backcountry.com affiliate URL. If a product the AI mentions isn't found here, the script falls back to a generic Amazon search link using your Associate tag, so set AMAZON_ASSOCIATE_TAG in your environment too.",
+  "example product name": "https://www.backcountry.com/example-product?affiliate=your-id"
+}

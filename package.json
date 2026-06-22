@@ -1,0 +1,12 @@
+{
+  "name": "north-pack-co-automation",
+  "version": "1.0.0",
+  "description": "Generates and publishes affiliate gear articles to Webflow CMS on a schedule",
+  "type": "module",
+  "scripts": {
+    "publish": "node generate-and-publish.js"
+  },
+  "dependencies": {
+    "marked": "^12.0.0"
+  }
+}
