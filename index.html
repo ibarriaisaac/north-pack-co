@@ -701,6 +701,87 @@
       font-size: 0.8125rem;
     }
 
+    /* GEAR GUIDES */
+    .guides-section {
+      padding: 5rem 8%;
+      background: var(--cream);
+    }
+
+    .guides-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.75rem;
+      margin-top: 2.5rem;
+    }
+
+    .guide-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: box-shadow 0.2s, transform 0.15s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .guide-card:hover {
+      box-shadow: var(--shadow-hover);
+      transform: translateY(-3px);
+    }
+
+    .guide-card-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      background: var(--forest-mid);
+    }
+
+    .guide-card-body {
+      padding: 1.25rem 1.5rem 1.5rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .guide-card-tag {
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ember);
+      margin-bottom: 0.4rem;
+    }
+
+    .guide-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.0625rem;
+      color: var(--forest);
+      line-height: 1.35;
+      margin-bottom: 0.6rem;
+    }
+
+    .guide-card p {
+      font-size: 0.875rem;
+      color: var(--text-mid);
+      line-height: 1.55;
+      flex: 1;
+    }
+
+    .guide-card-cta {
+      margin-top: 1rem;
+      font-size: 0.8125rem;
+      font-weight: 700;
+      color: var(--ember);
+    }
+
+    .guides-view-all {
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+
     /* RESPONSIVE */
     @media (max-width: 900px) {
       .footer-grid { grid-template-columns: 1fr 1fr; }
@@ -1047,6 +1128,81 @@
     </div>
     <div class="ai-status" id="ai-status">✍️ Writing your review...</div>
     <div class="ai-output" id="ai-output"></div>
+  </div>
+</section>
+
+<!-- GEAR GUIDES -->
+<section class="guides-section" id="guides">
+  <div class="section-header">
+    <span class="section-eyebrow">Buying Guides</span>
+    <h2>In-Depth Gear Guides</h2>
+    <p>Detailed breakdowns of the best gear in every category — tested, ranked, and affiliate-linked.</p>
+  </div>
+  <div class="guides-grid">
+
+    <a class="guide-card" href="/articles/best-tents-for-every-season.html">
+      <img class="guide-card-img" src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80&fit=crop" alt="Camping tent set up in wilderness at sunset" loading="lazy">
+      <div class="guide-card-body">
+        <div class="guide-card-tag">Tents & Shelter</div>
+        <h3>Best Tents for Every Season</h3>
+        <p>From ultralight backpacking shelters to bombproof 4-season tents — the top picks for every type of camper.</p>
+        <span class="guide-card-cta">Read Guide →</span>
+      </div>
+    </a>
+
+    <a class="guide-card" href="/articles/best-backpacking-packs-by-size.html">
+      <img class="guide-card-img" src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80&fit=crop" alt="Hiker with backpack on mountain trail" loading="lazy">
+      <div class="guide-card-body">
+        <div class="guide-card-tag">Backpacks</div>
+        <h3>Best Backpacking Packs by Size</h3>
+        <p>Whether you need a 30L daypack or a 70L load hauler, we've tested the top options at every volume.</p>
+        <span class="guide-card-cta">Read Guide →</span>
+      </div>
+    </a>
+
+    <a class="guide-card" href="/articles/best-sleeping-bags-for-cold-weather.html">
+      <img class="guide-card-img" src="https://images.unsplash.com/photo-1510672981848-a1c4f1cb5ccf?w=600&q=80&fit=crop" alt="Campfire under stars at night" loading="lazy">
+      <div class="guide-card-body">
+        <div class="guide-card-tag">Sleep Systems</div>
+        <h3>Best Sleeping Bags for Cold Weather</h3>
+        <p>Down vs synthetic, mummy vs quilt — the warmest and most packable bags for three-season and winter use.</p>
+        <span class="guide-card-cta">Read Guide →</span>
+      </div>
+    </a>
+
+    <a class="guide-card" href="/articles/best-backpacking-stoves.html">
+      <img class="guide-card-img" src="https://images.unsplash.com/photo-1487730116645-74489c95b41b?w=600&q=80&fit=crop" alt="Camp cooking on a backpacking stove outdoors" loading="lazy">
+      <div class="guide-card-body">
+        <div class="guide-card-tag">Cooking Gear</div>
+        <h3>Best Backpacking Stoves</h3>
+        <p>From the ultralight BRS-3000T to the fast-boiling Jetboil — every top stove ranked by weight, speed, and value.</p>
+        <span class="guide-card-cta">Read Guide →</span>
+      </div>
+    </a>
+
+    <a class="guide-card" href="/articles/best-hiking-boots-for-beginners.html">
+      <img class="guide-card-img" src="https://images.unsplash.com/photo-1464207687429-7505649dae38?w=600&q=80&fit=crop" alt="Hiking boots on rocky mountain trail" loading="lazy">
+      <div class="guide-card-body">
+        <div class="guide-card-tag">Footwear</div>
+        <h3>Best Hiking Boots for Beginners</h3>
+        <p>The most comfortable, supportive, and durable boots for new hikers — at every price point.</p>
+        <span class="guide-card-cta">Read Guide →</span>
+      </div>
+    </a>
+
+    <a class="guide-card" href="/articles/best-gps-devices-for-hikers.html">
+      <img class="guide-card-img" src="https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600&q=80&fit=crop" alt="Hiker navigating with map in mountains" loading="lazy">
+      <div class="guide-card-body">
+        <div class="guide-card-tag">Navigation & Safety</div>
+        <h3>Best GPS Devices for Hikers</h3>
+        <p>Handheld GPS units and satellite communicators that keep you safe and on-route in any terrain.</p>
+        <span class="guide-card-cta">Read Guide →</span>
+      </div>
+    </a>
+
+  </div>
+  <div class="guides-view-all">
+    <a href="/articles/" class="btn-primary">View All Gear Guides →</a>
   </div>
 </section>
 
