@@ -28,10 +28,11 @@ jobs:
           GH_REPO:           ${{ secrets.GH_REPO }}
           AMAZON_ASSOCIATE_TAG: ${{ secrets.AMAZON_ASSOCIATE_TAG }}
 
-      - name: Commit updated topic status
+    - name: Commit updated topic status
         run: |
           git config user.name "north-pack-bot"
           git config user.email "actions@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ secrets.GH_REPO }}.git
           git add topics.json
           git commit -m "Mark topic published [skip ci]" || echo "Nothing to commit"
           git push
