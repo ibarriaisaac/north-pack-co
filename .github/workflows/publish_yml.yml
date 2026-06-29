@@ -1,0 +1,42 @@
+name: Publish gear article
+
+on:
+  schedule:
+    - cron: "0 14 * * 1,4"
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm install
+
+      - run: node generate-and-publish.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_REPO: ${{ secrets.GH_REPO }}
+          AMAZON_ASSOCIATE_TAG: ${{ secrets.AMAZON_ASSOCIATE_TAG }}
+
+      - name: Commit updated topic status
+        run: |
+          git config user.name "north-pack-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ secrets.GH_REPO }}.git
+          git stash
+          git pull --rebase origin main
+          git stash pop || true
+          git add topics.json
+          git commit -m "Mark topic published [skip ci]" || echo "Nothing to commit"
+          git push
