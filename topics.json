@@ -1,26 +1,172 @@
 [
-  { "id": 1, "cluster": "Tents & Shelter", "title": "Best Tents for Every Season", "type": "pillar", "status": "pending" },
-  { "id": 2, "cluster": "Backpacks", "title": "Best Backpacking Packs by Size", "type": "pillar", "status": "pending" },
-  { "id": 3, "cluster": "Tents & Shelter", "title": "Best 4-Season Tents Under $300", "type": "supporting", "status": "pending" },
-  { "id": 4, "cluster": "Backpacks", "title": "Best 40L Travel Backpacks", "type": "supporting", "status": "pending" },
-  { "id": 5, "cluster": "Sleep Systems", "title": "Best Sleeping Bags for Cold Weather", "type": "pillar", "status": "pending" },
-  { "id": 6, "cluster": "Footwear", "title": "Best Hiking Boots for Beginners", "type": "pillar", "status": "pending" },
-  { "id": 7, "cluster": "Sleep Systems", "title": "Best Sleeping Pads for Side Sleepers", "type": "supporting", "status": "pending" },
-  { "id": 8, "cluster": "Footwear", "title": "Best Trail Running Shoes for Hiking", "type": "supporting", "status": "pending" },
-  { "id": 9, "cluster": "Cooking Gear", "title": "Best Backpacking Stoves", "type": "pillar", "status": "pending" },
-  { "id": 10, "cluster": "Clothing & Layering", "title": "Best Layering Systems for Hiking", "type": "pillar", "status": "pending" },
-  { "id": 11, "cluster": "Cooking Gear", "title": "Best Camp Cookware Sets", "type": "supporting", "status": "pending" },
-  { "id": 12, "cluster": "Clothing & Layering", "title": "Best Rain Jackets Under $150", "type": "supporting", "status": "pending" },
-  { "id": 13, "cluster": "Tents & Shelter", "title": "Best Ultralight Backpacking Tents", "type": "supporting", "status": "pending" },
-  { "id": 14, "cluster": "Backpacks", "title": "Best Daypacks for Hiking", "type": "supporting", "status": "pending" },
-  { "id": 15, "cluster": "Navigation & Safety", "title": "Best GPS Devices for Hikers", "type": "pillar", "status": "pending" },
-  { "id": 16, "cluster": "Accessories", "title": "Best Camping Gadgets Under $50", "type": "pillar", "status": "pending" },
-  { "id": 17, "cluster": "Footwear", "title": "Best Waterproof Hiking Boots", "type": "supporting", "status": "pending" },
-  { "id": 18, "cluster": "Sleep Systems", "title": "Down vs Synthetic Insulation: Which Sleeping Bag Fill Is Right for You", "type": "supporting", "status": "pending" },
-  { "id": 19, "cluster": "Cooking Gear", "title": "Best Water Filters for Backpacking", "type": "supporting", "status": "pending" },
-  { "id": 20, "cluster": "Navigation & Safety", "title": "Best Satellite Communicators for Backcountry Trips", "type": "supporting", "status": "pending" },
-  { "id": 21, "cluster": "Clothing & Layering", "title": "Best Insulated Jackets for Winter Camping", "type": "supporting", "status": "pending" },
-  { "id": 22, "cluster": "Accessories", "title": "Best Portable Camp Chairs", "type": "supporting", "status": "pending" },
-  { "id": 23, "cluster": "Sleep Systems", "title": "Best Budget Sleeping Bags Under $100", "type": "supporting", "status": "pending" },
-  { "id": 24, "cluster": "Accessories", "title": "Best Multi-Tools for Camping", "type": "supporting", "status": "pending" }
+  {
+    "id": 1,
+    "cluster": "Tents & Shelter",
+    "title": "Best Tents for Every Season",
+    "type": "pillar",
+    "status": "published",
+    "publishedAt": "2026-06-29T20:56:17.248Z",
+    "slug": "best-tents-for-every-season"
+  },
+  {
+    "id": 2,
+    "cluster": "Backpacks",
+    "title": "Best Backpacking Packs by Size",
+    "type": "pillar",
+    "status": "pending"
+  },
+  {
+    "id": 3,
+    "cluster": "Tents & Shelter",
+    "title": "Best 4-Season Tents Under $300",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 4,
+    "cluster": "Backpacks",
+    "title": "Best 40L Travel Backpacks",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 5,
+    "cluster": "Sleep Systems",
+    "title": "Best Sleeping Bags for Cold Weather",
+    "type": "pillar",
+    "status": "pending"
+  },
+  {
+    "id": 6,
+    "cluster": "Footwear",
+    "title": "Best Hiking Boots for Beginners",
+    "type": "pillar",
+    "status": "pending"
+  },
+  {
+    "id": 7,
+    "cluster": "Sleep Systems",
+    "title": "Best Sleeping Pads for Side Sleepers",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 8,
+    "cluster": "Footwear",
+    "title": "Best Trail Running Shoes for Hiking",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 9,
+    "cluster": "Cooking Gear",
+    "title": "Best Backpacking Stoves",
+    "type": "pillar",
+    "status": "pending"
+  },
+  {
+    "id": 10,
+    "cluster": "Clothing & Layering",
+    "title": "Best Layering Systems for Hiking",
+    "type": "pillar",
+    "status": "pending"
+  },
+  {
+    "id": 11,
+    "cluster": "Cooking Gear",
+    "title": "Best Camp Cookware Sets",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 12,
+    "cluster": "Clothing & Layering",
+    "title": "Best Rain Jackets Under $150",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 13,
+    "cluster": "Tents & Shelter",
+    "title": "Best Ultralight Backpacking Tents",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 14,
+    "cluster": "Backpacks",
+    "title": "Best Daypacks for Hiking",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 15,
+    "cluster": "Navigation & Safety",
+    "title": "Best GPS Devices for Hikers",
+    "type": "pillar",
+    "status": "pending"
+  },
+  {
+    "id": 16,
+    "cluster": "Accessories",
+    "title": "Best Camping Gadgets Under $50",
+    "type": "pillar",
+    "status": "pending"
+  },
+  {
+    "id": 17,
+    "cluster": "Footwear",
+    "title": "Best Waterproof Hiking Boots",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 18,
+    "cluster": "Sleep Systems",
+    "title": "Down vs Synthetic Insulation: Which Sleeping Bag Fill Is Right for You",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 19,
+    "cluster": "Cooking Gear",
+    "title": "Best Water Filters for Backpacking",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 20,
+    "cluster": "Navigation & Safety",
+    "title": "Best Satellite Communicators for Backcountry Trips",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 21,
+    "cluster": "Clothing & Layering",
+    "title": "Best Insulated Jackets for Winter Camping",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 22,
+    "cluster": "Accessories",
+    "title": "Best Portable Camp Chairs",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 23,
+    "cluster": "Sleep Systems",
+    "title": "Best Budget Sleeping Bags Under $100",
+    "type": "supporting",
+    "status": "pending"
+  },
+  {
+    "id": 24,
+    "cluster": "Accessories",
+    "title": "Best Multi-Tools for Camping",
+    "type": "supporting",
+    "status": "pending"
+  }
 ]
