@@ -31,7 +31,9 @@
     "cluster": "Backpacks",
     "title": "Best 40L Travel Backpacks",
     "type": "supporting",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-07-06T16:50:52.745Z",
+    "slug": "best-40l-travel-backpacks"
   },
   {
     "id": 5,
