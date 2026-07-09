@@ -40,7 +40,9 @@
     "cluster": "Sleep Systems",
     "title": "Best Sleeping Bags for Cold Weather",
     "type": "pillar",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-07-09T16:25:24.590Z",
+    "slug": "best-sleeping-bags-for-cold-weather"
   },
   {
     "id": 6,
