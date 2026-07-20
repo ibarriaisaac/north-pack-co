@@ -67,7 +67,9 @@
     "cluster": "Footwear",
     "title": "Best Trail Running Shoes for Hiking",
     "type": "supporting",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-07-20T15:48:27.647Z",
+    "slug": "best-trail-running-shoes-for-hiking"
   },
   {
     "id": 9,
