@@ -76,7 +76,9 @@
     "cluster": "Cooking Gear",
     "title": "Best Backpacking Stoves",
     "type": "pillar",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-07-23T15:53:07.668Z",
+    "slug": "best-backpacking-stoves"
   },
   {
     "id": 10,
