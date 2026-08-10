@@ -94,7 +94,9 @@
     "cluster": "Cooking Gear",
     "title": "Best Camp Cookware Sets",
     "type": "supporting",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-08-10T14:54:03.764Z",
+    "slug": "best-camp-cookware-sets"
   },
   {
     "id": 12,
