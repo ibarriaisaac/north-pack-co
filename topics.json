@@ -103,7 +103,9 @@
     "cluster": "Clothing & Layering",
     "title": "Best Rain Jackets Under $150",
     "type": "supporting",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-08-13T14:53:18.816Z",
+    "slug": "best-rain-jackets-under-150"
   },
   {
     "id": 13,
