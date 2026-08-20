@@ -121,7 +121,9 @@
     "cluster": "Backpacks",
     "title": "Best Daypacks for Hiking",
     "type": "supporting",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-08-20T14:31:54.566Z",
+    "slug": "best-daypacks-for-hiking"
   },
   {
     "id": 15,
