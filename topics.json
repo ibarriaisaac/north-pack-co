@@ -148,7 +148,9 @@
     "cluster": "Footwear",
     "title": "Best Waterproof Hiking Boots",
     "type": "supporting",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-08-31T19:49:16.721Z",
+    "slug": "best-waterproof-hiking-boots"
   },
   {
     "id": 18,
