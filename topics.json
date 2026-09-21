@@ -202,7 +202,9 @@
     "cluster": "Sleep Systems",
     "title": "Best Budget Sleeping Bags Under $100",
     "type": "supporting",
-    "status": "pending"
+    "status": "published",
+    "publishedAt": "2026-09-21T19:01:59.960Z",
+    "slug": "best-budget-sleeping-bags-under-100"
   },
   {
     "id": 24,
